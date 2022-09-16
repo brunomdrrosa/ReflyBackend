@@ -1,0 +1,37 @@
+package com.cesuca.refly.entities;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="colaborador")
+public class Colaborador {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String name;
+
+    public Colaborador() {}
+
+    public Colaborador(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+}
