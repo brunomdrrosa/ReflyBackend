@@ -4,7 +4,7 @@ Backend do Refly 👨‍💻 Em andamento ⚠️
 
 <p align="center">
  <a href="#-sobre">Sobre</a> •
- <a href="#-requisicoes">Requisições</a> •
+ <a href="#-requisições">Requisições</a> •
  <a href="#-dados-de-acesso-ao-banco">Dados de acesso ao banco</a> •
  <a href="#%EF%B8%8F-autor">Autor</a>
 </p>
@@ -16,8 +16,7 @@ Realizado utilizando as tecnologias Java e Spring Boot, também foi utilizado o 
 
 <h3 align="center">
 ⚙️ Tecnologias utilizadas
-
-<br>
+<p></p>
 <img src="https://skillicons.dev/icons?i=java,spring,postgres,heroku"/>
 </h3>
 
